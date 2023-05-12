@@ -1,0 +1,12 @@
+An object in JavaScript is a collection of key-value pairs. It can hold any type of value such as numbers, strings,or other objects.
+ An object is defined using curly braces {} and can have properties and methods. Properties are variables that hold values, and methods 
+are functions that are associated with an object.
+Internal Representation of Objects in JavaScript are created using a special data type called "object." When an object is created, 
+JavaScript internally creates a reference to the object and stores it in memory. The reference is a unique identifier for the object, 
+and it allows us to access and modify the properties and methods of the object.
+Objects in JavaScript are dynamic, which means that you can add or remove properties and methods from an object at any time. When you add 
+a new property to an object, JavaScript internally creates a new memory location to store the value of the property.
+Objects in JavaScript are also mutable, which means that you can change the values of the properties of an object. When you change the value 
+of a property, JavaScript internally updates the memory location of the property to hold the new value.
+In JavaScript, objects are passed by reference, not by value. This means that when you pass an object as an argument to a function or assign 
+an object to a variable, a reference to the object is passed or assigned, not a copy of the object. 
